@@ -1,0 +1,61 @@
+/* Whole Page*/
+body {
+    background-color: aliceblue;
+}
+
+/* Main content */
+article {
+    border-right: 5px solid;
+    border-right-color: black;
+    padding-right: 1%;
+    width: 75%;
+    float: left;
+    overflow-x: auto;
+}
+
+section {
+    border: 2px solid;
+    padding: 0.5rem 1rem;
+}
+
+section h3 {
+    background-color: darkcyan;
+    color: white;
+    border-radius: 1rem;
+    padding-left: 1.5rem;
+}
+
+/* Whole form*/
+
+legend {
+    background-color: darkcyan;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    padding-left: 1.5rem;
+}
+
+form {
+    border: 2px solid;
+    padding: 0.5rem 1rem;
+    max-width: 50%;
+    float: right;
+    margin: auto;
+    text-align: center;
+}
+
+/* Form controls */
+
+input {
+    display: none;
+    visibility: hidden;
+}
+
+button {
+    background-color: rgb(93, 182, 132);
+    color: white;
+    font-size: 1rem;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}

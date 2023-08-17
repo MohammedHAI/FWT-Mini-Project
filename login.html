@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login.css" type="text/css" title="Default">
+    <link rel="alternative stylsheet" href="css/reset.css" type="text/css" title="No styling">
+    <title>Log in</title>
+</head>
+<body>
+    <form action="backend/login.php" method="post">
+        <legend>Log in</legend>
+        <input type="email" name="email" placeholder="Enter Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+        <br/>
+        <input type="password" name="password" placeholder="Enter Password">
+        <br/>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

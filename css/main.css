@@ -1,0 +1,174 @@
+/* Whole Page*/
+body {
+    background-color: aliceblue;
+}
+
+/* Miscellaneous Elements */
+a {
+    text-decoration: none;
+}
+
+p {
+    word-wrap: break-word;
+}
+
+/* For mobile */
+@media screen and (max-width: 768px){
+    nav h1 {
+        width: 100%;
+    }
+
+    nav li {
+        float: right;
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }
+
+    article, section, aside, footer {
+        width: 100%;
+        float: none;
+    }
+
+    table {
+        max-width: 10%;
+    }
+}
+
+/* Navigation */
+nav {
+    background-color: peru;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    float: left;
+    overflow: hidden;
+}
+
+nav h1 {
+    background-color: burlywood;
+    font-size: 1.75rem;
+    margin: 0;
+    padding: 1rem;
+    float: left;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    background-color: peru;
+    text-emphasis: bold;
+    font-size: 1.25rem;
+    padding: 0.5rem 1rem;
+    float: left;
+    display: block;
+}
+
+nav p {
+    margin: 0;
+    padding: 0rem 1rem;
+}
+
+nav a {
+    color: white;
+    padding: 0.5rem 1rem;
+}
+
+nav a:hover {
+    background-color: orange;
+}
+
+/* Main content */
+article {
+    border-right: 5px solid;
+    border-right-color: black;
+    padding-right: 1%;
+    width: 75%;
+    float: left;
+    overflow-x: auto;
+}
+
+section {
+    border: 2px solid;
+    padding: 0.5rem 1rem;
+}
+
+section h3 {
+    background-color: darkcyan;
+    color: white;
+    border-radius: 1rem;
+    padding-left: 1.5rem;
+}
+
+/* Side content */
+aside {
+    position: relative;
+    width: 23%;
+    float: right;
+}
+
+aside a {
+    font-size: 1.5rem;
+    background-color: darkgreen;
+    color: white;
+    border-radius: 1rem;
+    position: absolute;
+    right: 1rem;
+    bottom: 0.5rem;
+    padding: 0.5rem;
+}
+
+aside a:hover {
+    background-color: seagreen;
+}
+
+footer {
+    width: 23%;
+    float: right;
+}
+
+/* Table elements */
+#projects {
+    max-width: 75%;
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+.project-title {
+    text-align: center;
+}
+
+.project-description {
+    max-width: 50%;
+}
+
+.project-title, .project-description, .project-screenshot {
+    border: 1px solid;
+}
+
+/* Images */
+img {
+    max-width: 15rem;
+}
+
+figcaption {
+    font-weight: bold;
+    color: darkgreen;
+    text-align: center;
+}
+
+/* Miscellaneous */
+
+#add-entry-button {
+    font-size: 1.5rem;
+    background-color: darkgreen;
+    color: white;
+    border-radius: 1rem;
+    position: absolute;
+    right: 1rem;
+    bottom: 0.5rem;
+    padding: 0.5rem;
+}
